@@ -32,6 +32,7 @@ function keyBind(key, action) {
 // that loads afterwards
 keyBind("f", clickButtonAction("#vjs_video_3 > div.vjs-control-bar > button.vjs-fullscreen-control.vjs-control.vjs-button"));
 keyBind("k", clickButtonAction("#vjs_video_3 > div.vjs-control-bar > button.vjs-play-control.vjs-control.vjs-button"));
+keyBind(" ", clickButtonAction("#vjs_video_3 > div.vjs-control-bar > button.vjs-play-control.vjs-control.vjs-button"));
 keyBind("h", clickButtonAction("#vjs_video_3 > div.vjs-control-bar > button.backward-button.vjs-control.vjs-button"));
 keyBind("l", clickButtonAction("#vjs_video_3 > div.vjs-control-bar > button.forward-button.vjs-control.vjs-button"));
 keyBind("m", clickButtonAction("#vjs_video_3 > div.vjs-control-bar > div.vjs-volume-menu-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button.vjs-volume-menu-button-vertical"));
