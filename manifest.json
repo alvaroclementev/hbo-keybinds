@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "run_at": "document_end",
-      "matches": ["https://*.hboespana.com/*/play"],
+      "matches": ["https://*.hboespana.com/*"],
       "js": ["keybinds.js"]
     }
   ]
