@@ -1,0 +1,13 @@
+{
+  "name": "HBO Keybinds",
+  "description": "Bindings for HBO Player",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": ["https://*.hboespana.com/*/play"],
+      "js": ["keybinds.js"]
+    }
+  ]
+}
